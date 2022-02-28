@@ -54,7 +54,7 @@ type YAML struct {
 }
 
 // NewYAML constructs a YAML provider. See the various YAMLOptions for
-// available tweaks to the default behavior.
+// available tweaks to the default behavior
 func NewYAML(options ...YAMLOption) (*YAML, error) {
 	cfg := &config{
 		strict: true,
